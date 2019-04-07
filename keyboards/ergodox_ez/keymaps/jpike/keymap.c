@@ -65,7 +65,7 @@ LT(SYMB, KC_TAB),    KC_N,   KC_M,    KC_COMM, KC_DOT, KC_SLSH,          KC_RSFT
  * |--------+------+------+------+------+-------------|           |------+------+------+------+------+------+--------|
  * |        |  #   |   &  |  |   |  \   |      |      |           |      |      |   [  |   <  |   >  |  ]   |        |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
- * |        |  ~   |   _  |  =   |  /   |      |------|           |------|      |   {  |   (  |   )  | }    |        |
+ * |        |  ~   |   _  |  =   |  /   |      |------|           |------| DEL  |   {  |   (  |   )  | }    |        |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * |        |  ?   |   $  |  @   |  %   |      |      |           |      |      |   +  |   -  |   *  |      |        |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
@@ -94,7 +94,7 @@ LT(SYMB, KC_TAB),    KC_N,   KC_M,    KC_COMM, KC_DOT, KC_SLSH,          KC_RSFT
        // right hand
        KC_TRNS,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,    KC_F11,
        KC_TRNS,   KC_TRNS, KC_LBRC, KC_LANG, KC_RANG, KC_RBRC,   KC_TRNS,
-                  KC_TRNS, KC_LCBR, KC_LPRN, KC_RPRN, KC_RCBR,   KC_TRNS,
+                  KC_DEL,  KC_LCBR, KC_LPRN, KC_RPRN, KC_RCBR,   KC_TRNS,
        KC_TRNS,   KC_TRNS, KC_PLUS, KC_MINS, KC_ASTR, KC_TRNS,   KC_TRNS,
                            KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,   KC_TRNS,
 
