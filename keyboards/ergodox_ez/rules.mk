@@ -83,7 +83,7 @@ SLEEP_LED_ENABLE = no
 API_SYSEX_ENABLE = no
 RGBLIGHT_ENABLE = yes
 RGB_MATRIX_ENABLE = no # enable later
-DEBOUNCE_TYPE = eager_pr
+DEBOUNCE_TYPE = sym_g
 
 ifeq ($(strip $(RGB_MATRIX_ENABLE)), no)
   SRC += i2c_master.c
