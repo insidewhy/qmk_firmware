@@ -249,3 +249,11 @@ uint32_t layer_state_set_user(uint32_t state) {
 
   return state;
 };
+
+// key overrides (shift + backspace to delete)
+const key_override_t delete_key_override = ko_make_basic(MOD_MASK_SHIFT, GUI_T(KC_BSPC), KC_DEL);
+
+const key_override_t **key_overrides = (const key_override_t *[]){
+  &delete_key_override,
+  NULL
+};
